@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Task1 from './Task1';
+import Task2 from './Task2';
+import Task3 from './Task3';
+import Task4 from './Task4';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Task1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
